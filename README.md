@@ -1,4 +1,3 @@
 # Main Tools used
 
-- Media Queries
-- Flexbox
+- This is following Dan Scott's tutorial on Udemy (Course: Responsive Web Design)
