@@ -13,8 +13,6 @@ body {
 }
 
 .col {
-  background-color: rgb(82, 82, 14);
-  min-height: 200px;
   width: 30%;
   margin-bottom: 40px;
 }
@@ -25,6 +23,12 @@ h1 {
 
 .hide-desktop {
   display: none;
+}
+
+.col img {
+  width: 100%;
+  height: auto;
+  overflow: none;
 }
 
 /* Tablet View */
