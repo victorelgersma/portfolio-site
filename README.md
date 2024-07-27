@@ -1,3 +1,4 @@
-# Main Tools used
+# Readme
 
-- This is following Dan Scott's tutorial on Udemy (Course: Responsive Web Design)
+- My portfolio website
+- Written in plain HTML, CSS, and a touch of jQuery
