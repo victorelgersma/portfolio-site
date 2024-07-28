@@ -42,11 +42,12 @@ header {
   width: 30%;
   margin-bottom: 40px;
   background-color: rgb(43, 226, 147);
+  min-height: 250px;
+  padding: 40px;
 }
 
 .col p {
   font-size: 0.825rem;
-  padding: 20px 25px;
   line-height: 1.25rem;
 }
 
@@ -55,6 +56,7 @@ header {
 }
 
 .col img {
+  display: none;
   width: 100%;
   height: auto;
 }
