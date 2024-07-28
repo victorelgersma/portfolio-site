@@ -38,7 +38,7 @@ header {
   align-items: center;
 }
 
-.col {
+.card {
   width: 30%;
   margin-bottom: 40px;
   background-color: rgb(43, 226, 147);
@@ -46,7 +46,7 @@ header {
   padding: 40px;
 }
 
-.col p {
+.card p {
   font-size: 0.825rem;
   line-height: 1.25rem;
 }
@@ -55,13 +55,13 @@ header {
   display: none;
 }
 
-.col img {
+.card img {
   display: none;
   width: 100%;
   height: auto;
 }
 
-.col p::first-line {
+.card p::first-line {
   font-weight: 700;
 }
 
@@ -82,7 +82,7 @@ header {
 
 /* Tablet View */
 @media (max-width: 768px) {
-  .col {
+  .card {
     width: 45%;
   }
 
@@ -132,7 +132,7 @@ header {
 
 /* Mobile View */
 @media (max-width: 400px) {
-  .col {
+  .card {
     width: 100%;
   }
 
