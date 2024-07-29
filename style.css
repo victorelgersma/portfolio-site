@@ -44,6 +44,12 @@ header {
   background-color: rgb(43, 226, 147);
   min-height: 250px;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card div {
+  flex-grow: 1;
 }
 
 .card p {
