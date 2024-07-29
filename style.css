@@ -11,21 +11,19 @@ a {
   text-decoration: none;
 }
 
-.container {
-  min-height: 500px;
-  max-width: 1024px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 140px;
-}
-
 .header-container {
   background-color: rgb(60, 60, 60);
   min-height: 100px;
   position: fixed;
   width: 100%;
+}
+
+.basic-grid {
+  padding-top: 140px;
+  display: grid;
+  gap: 1rem; /* instead of adding margin to the children */
+  /* grid-template-columns: 1fr; */ /* 1 1 single column */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 header {
@@ -39,13 +37,11 @@ header {
 }
 
 .card {
-  width: 30%;
-  margin-bottom: 40px;
   background-color: rgb(43, 226, 147);
-  min-height: 250px;
-  padding: 40px;
   display: flex;
   flex-direction: column;
+  min-height: 250px;
+  padding: 1rem;
 }
 
 .card div {
@@ -88,14 +84,6 @@ header {
 
 /* Tablet View */
 @media (max-width: 768px) {
-  .card {
-    width: 45%;
-  }
-
-  .hide-desktop-only {
-    display: block;
-  }
-
   .header-container {
     position: relative;
   }
@@ -133,16 +121,5 @@ header {
     padding: 15px 30px;
     margin-left: -60px;
     text-align: center;
-  }
-}
-
-/* Mobile View */
-@media (max-width: 400px) {
-  .card {
-    width: 100%;
-  }
-
-  .hide-mobile {
-    display: none;
   }
 }
