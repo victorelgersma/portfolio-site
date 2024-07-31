@@ -63,10 +63,6 @@ header {
   height: auto;
 }
 
-.card p::first-line {
-  font-weight: 700;
-}
-
 .mybutton {
   padding: 10px 25px;
   border-style: solid;
